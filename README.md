@@ -15,7 +15,7 @@ Ao acessar o repositório é possível acessalo por meio do link deploy disponiv
 
 >Na primeira execução, devesse iniciar pelo arquivo index.html, onde nele ao ser executado no seu navegador de preferência irá apresentar uma navbar onde as abas de direcionamento estão presentes e um footer inspirado no do site oficial da PUMA.
 
-![home]()
+![home](https://github.com/matheussoares1/Tela-de-Login---LocalStorage-/blob/main/IMG/home.png?raw=true)
 
 
 ### Página de Cadastro
@@ -26,7 +26,7 @@ Ao acessar o repositório é possível acessalo por meio do link deploy disponiv
 
 Ao relizar o cadastro, o usuário é redirecionado para a tela de login, onde lá deve ser preenchido os dados de login solicitado para que o mesmo ocorra.
 
-### Página de L0gin
+### Página de Login
 
 > Ao realizar o login com os dados corretos, o usuário é notificado que login foi realizado com sucesso, caso contrario, é apresentado que as credenciais são invalidas. Logo após o login ocorrer com sucesso, o usuário é redirecinado para a pagina modelo de dashboard, reaproveitada dos projetos já desenvolvidos pelo desenvolvedor [Matheus Soares](https://github.com/matheussoares1/)
 
