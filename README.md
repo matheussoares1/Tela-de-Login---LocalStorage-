@@ -3,7 +3,7 @@
 Aplicação de Programação Web desenvolvida com uso de HTML5, CSS3, Javascript(puro) e Bootstrap. A aplicação foi inspirada no site oficial da marca de roupas e acessórios PUMA, buscando presenvar a identidade visual do site oficial e da própria marca.
 
 
-#EXPERIÊNCIA DE USO
+# EXPERIÊNCIA DE USO
 
 ## Acessando
 
