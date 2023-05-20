@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <script src="./script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <h1>PUMA</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html" target="_blank">Início</a>
+                </li>
+                <li>
+                    <a href="login.html" target="_blank">Login</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Cadastro</a>
+                </li>
+                <li>
+                    <a href="https://www.github.com/matheussoares1/" target="_blank">Matheus Soares</a>
+                </li>
+                <li>
+                    <a href="https://github.com/joseluiz03" target="_blank">José Luiz</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="login">
+
+                <div class="wrapper">
+                    <img src="https://www.svgrepo.com/show/303470/puma-logo-logo.svg" class="login__logo">
+
+                    <h1 class="login__title">Faça seu Cadastro</h1>
+
+                    <label class="login__label">
+
+                        <input type="text" name="username" id="username" class="input" placeholder="Usuário">
+                    </label>
+                    <label class="login__label">
+
+                        <input type="text" name="email" id="email" class="input" placeholder="Email">
+                    </label>
+
+                    <label class="login__label">
+
+                        <input type="password" name="password" id="password" class="input" placeholder="Senha">
+                    </label>
+                    <label class="login__label">
+
+                        <input type="password" name="password" id="confirm-password" class="input" placeholder="Confirme sua Senha">
+                    </label>
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button class="btn btn-primary" type="submit" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Entrar</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <label><br> Ou entre associado com</label>
+                    <div class="login__icons">
+                        <button type="button" class="icons__button">
+                            <img src="./images/facebook-icon.png" alt="facebok">
+                        </button>
+
+                        <button type="button" class="icons__button">
+                            <img src="./images/google-icon.png" alt="facebok">
+                        </button>
+
+                        <button type="button" class="icons__button">
+                            <img src="./images/apple-icon.png" alt="facebok">
+                        </button>
+
+
+                    </div>
+                    <div>
+                        <label>Já é Cadastrado? <a href="./login.html">Clique Aqui!</a></label>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="wallpaper"></section>
+        </div>
+    </main>
+
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="./images/puma.png" class="img-fluid" alt="logo"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor
+                                        incididuntut consec tetur adipisicing
+                                        elit,Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Nossos Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Início</a></li>
+                                    <li><a href="#">Sobre</a></li>
+                                    <li><a href="#">Serviçõs</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Contato</a></li>
+                                    <li><a href="#">Github M.S</a></li>
+                                    <li><a href="#">Github J.L</a></li>
+                                    <li><a href="#">Mestre</a></li>
+                                    <li><a href="#">Produtos</a></li>
+                                    <li><a href="#">Notícias</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, Direitos Reservados <a
+                                    href="hhttps://br.puma.com/?utm_source=GGL&utm_medium=PS&gclid=CjwKCAjwjYKjBhB5EiwAiFdSfiu6v_ePD8jg1hb11CVnxj86SsZV3fqbsd7E5uyM6E05JG-GNHDYUBoCnsUQAvD_BwE">Puma</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // salvar informações de cadastro no localStorage quando o formulário de cadastro for enviado
+        document.querySelector('form:first-of-type').addEventListener('submit', function (event) {
+            event.preventDefault(); // evitar que o formulário seja enviado
+
+            // obter valores dos inputs
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm-password').value;
+
+            // verificar se as senhas coincidem
+            if (password !== confirmPassword) {
+                alert('As senhas não coincidem');
+                return;
+            }
+
+            // salvar informações no localStorage
+            localStorage.setItem('username', username);
+            localStorage.setItem('email', email);
+            localStorage.setItem('password', password);
+
+            alert('Cadastro realizado com sucesso!');
+            window.location.replace('dashboard.html');
+        });
+    </script>
+</body>
+
+</html>
